@@ -8,8 +8,10 @@
   --font-Mont: font-family: Arial, "Monteserrat", Helvetica, sans-serif;
 }
 
-h2 {
-    
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 #title {
@@ -89,7 +91,7 @@ h2 {
 
 /*testimonials*/
 #testimonials {
-  padding: 7% 15%;
+  padding: 5px;
   text-align: center;
   background-color: var(--bg-color-2);
   color: #fff;
@@ -116,5 +118,28 @@ h2 {
 
 #press .press-logo {
     width: 15%;
-   margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  cursor: pointer;
+  padding: 5% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+#pricing h2 {
+  font-family: var(--font-Mont);
+  font-weight: 1000;
+  font-size: 3rem;
+}
+
+#pricing button {
+  width: 100%;
+}
+
+.pricing-plan {
+  padding: 3% 2%;
 }
